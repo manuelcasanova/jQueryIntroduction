@@ -4,14 +4,14 @@ https://www.youtube.com/watch?v=3nrLc_JOF7k&ab_channel=TraversyMedia
 
 You can follow along while watching the video or you can download to your computer the following files from this repository:
 
-jQuery.html, 
+jQuery.html and 
 jquery-3.6.0.js
 
 Instructions:
 
 1. Open jQuery.html in your VSCode.
 2. Open jQuery.html in your browser.
-3. Play with lines 60 to 75 by commneting in/out each of them to see what happens on the browser.
+3. Play with lines 60 to 75 by commenting in/out each of them to see what happens on the browser.
 4. Do not forget to save on VSCode and refresh the browser after each change.
 
 
@@ -22,13 +22,13 @@ https://www.youtube.com/watch?v=VlWsJHsVb-E&ab_channel=TraversyMedia
 
 You can follow along while watching the video or you can download to your computer the following files from this repository:
 
-jQuery2_events.html, 
+jQuery2_events.html and 
 jquery-3.6.0.js
 
 Instructions:
 
 1. Open jQuery2_events.html in your VSCode.
 2. Open jQuery2_events.html in your browser.
-3. Play with lines 64 to 174 by commneting in/out each of them to see what happens on the browser.
+3. Play with lines 64 to 174 by commmenting in/out each of them to see what happens on the browser.
 4. Do not forget to save on VSCode and refresh the browser after each change.
 
