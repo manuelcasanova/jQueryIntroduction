@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=3nrLc_JOF7k&ab_channel=TraversyMedia
 
 You can follow along while watching the video or you can download to your computer the following files from this repository:
 
-jQuery.html
+jQuery.html, 
 jquery-3.6.0.js
 
 Instructions:
@@ -22,7 +22,7 @@ https://www.youtube.com/watch?v=VlWsJHsVb-E&ab_channel=TraversyMedia
 
 You can follow along while watching the video or you can download to your computer the following files from this repository:
 
-jQuery2_events.html
+jQuery2_events.html, 
 jquery-3.6.0.js
 
 Instructions:
