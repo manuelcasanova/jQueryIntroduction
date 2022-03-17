@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Demo</title>
+  <style>
+    body {
+      font-size: 17px;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f4f4f4;
+      line-height: 1.5em;
+    }
+    header {
+      background: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 4px #000 solid;
+      margin-bottom: 10px;
+    }
+    container {
+      width: 90%
+      margin: auto;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <a href="http://jquery.com/">jQuery</a>
+  <script src="jquery-3.6.0.js"></script>
+  <header>
+<h1>jQuery Crash Course</h1>
+  </header>
+  <div id="container">
+    <h3>Mouse Events</h3>
+    <button id="btn1" class="btnClass">Button1</button>
+    <button id="btn2">Button2</button>
+    <p class="para1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos optio expedita magnam ut officiis labore excepturi rem totam repudiandae culpa vel, nam atque aliquid quidem aspernatur ad eaque vero ipsum.</p>
+    <h1 id="coords"></h1>
+    <hr>
+    <form id="form">
+<label>Name</label><br>
+<input type="text" id="name" name="name">
+<br>
+<label>Email</label><br>
+<input type="email" id="email" name="email">
+<br>
+<label>Gender</label><br>
+<select id="gender" name="gender">
+  <option value="male">Male</option>
+  <option value="female">Female</option>
+  <option value="other">Other</option>
+</select>
+<br>
+<input type ="submit" value="Submit">
+    </form>
+  
+  </div>
+  
+  <script>
+    $(document).ready(function() {
+
+
+    //   $('#btn1').click(function(){
+    //   alert("Button Clicked!");
+    // }); //Or the below alternative, cause that's what happens behind the scenes when whe use .click
+
+    // $("#btn1").on("click", function(){
+    //   alert("Button Clicked!");
+    // });
+
+    // $("#btn1").on("click", function(){
+    //   $(".para1").hide();
+    // });
+
+    // $("#btn2").on("click", function(){
+    //   $(".para1").show();
+    // });
+
+    //Alternative to lines 54-60 in one block
+
+    // $("#btn1").on("click", function(){
+    //   $(".para1").toggle();
+    // });
+
+    // $("#btn1").dblclick(function(){
+    //   $(".para1").toggle();
+    // });
+
+    // $("#btn1").hover(function(){
+    //   $(".para1").toggle();
+    // }); //Not an actual event. Shorthand for two events: mouse enter and mouse leave. See below. (Lines 76 to 82)
+
+    // $("#btn1").on("mouseenter", function(){
+    //   $(".para1").toggle();
+    // }); 
+
+    // $("#btn1").on("mouseleave", function(){
+    //   $(".para1").toggle();
+    // }); 
+
+    // $("#btn1").on("mousemove", function(){
+    //   $(".para1").toggle();
+    // }); //Move your mouse inside Button1
+
+      // $("#btn1").on("mousedown", function(){
+      //   $(".para1").toggle();
+      // }); //Click and do not release button1
+
+      // $("#btn1").on("mouseup", function(){
+      //   $(".para1").toggle();
+      // }); //Click and hold, then release (on button1)
+
+    //   $('#btn1').click(function(e){
+    //   console.log(e); //Have your console open on your browser.
+    // });
+
+    /*
+    $('#btn1').click(function(e){
+      console.log(e.currentTarget.id); //Have your console open on your browser.
+      alert(e.currentTarget.id)
+      alert(e.currentTarget.innerHTML)
+      alert(e.currentTarget.outerHTML)
+      alert(e.currentTarget.className); //see line 36 Col 30 and compare to alert
+    });
+*/
+
+// $('#btn1').on("mousemove", function(e){
+//   console.log('Coords: Y: '+e.clientY+"X: "+e.clientX);
+// }); //Open console on chrome and hover over button1
+
+// $(document).on("mousemove", function(e){
+//   console.log('Coords: Y: '+e.clientY+"X: "+e.clientX);
+// }); //Open console on chrome and hover any part of the page
+
+// $(document).on("mousemove", function(e){
+//   $("#coords").html('Coords: Y: '+e.clientY+"X: "+e.clientX);
+// }); //Open console on chrome and hover any part of the page
+
+
+// $("input").focus(function(){
+//  $(this).css("background", "pink");
+// }); //Click on the Name and/or Email boxes
+
+// $("input").blur(function(){
+//  $(this).css("background", "white");
+// }); //Click outside the boxes
+
+// $("input").keyup(function(){
+//   console.log('keyup'); //Start writing a name and see console in chrome
+// })
+
+// $("input").keyup(function(e){
+//   console.log(e.target.value); //Start writing a name and see console in chrome
+// })
+
+// $("select#gender").change(function(){
+//   alert('Gender changed');
+// }); //Change the gender
+
+// $("select#gender").change(function(e){
+//   alert(e.target.value);
+// }); //Change the gender
+
+// $("#form").submit(function(e){
+//   e.preventDefault(); //Without this line we would not see the message on the console.
+//   console.log("Submitted");
+// })
+
+// $("#form").submit(function(e){
+//   e.preventDefault();
+//   var name = $("input#name").val();
+//   console.log(name); //Submit and check console
+// })
+
+
+    }); //Closing function opened in line 43
+
+
+
+
+  </script>
+</body>
+</html>
